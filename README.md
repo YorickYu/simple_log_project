@@ -51,4 +51,4 @@ public void aroundTest(String s) {
 
 ### 最后
 
-你可以在 [JPP](https://github.com/YorickYu/JPP/tree/main/src/main/java/com/yy/annotation) 下载并使用这个小工具，谢谢
+你可以在 [JPP](https://github.com/YorickYu/JPP/tree/main/src/main/java/com/yy/annotation) 或者当前这个项目中下载并使用这个小工具
