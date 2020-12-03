@@ -46,7 +46,6 @@ public void aroundTest(String s) {
 
 3 执行结果
 
-![result](https://yloopdaed-public.oss-cn-shanghai.aliyuncs.com/logaspect.jpg)
 ```
 [main] INFO com.yy.annotation.LogAspect - START=======com.yy.annotation.TestAnnotation::hah777============
 [main] INFO com.yy.annotation.LogAspect - DESC: asdfzxxzxzzxz
