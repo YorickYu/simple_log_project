@@ -47,6 +47,15 @@ public void aroundTest(String s) {
 3 执行结果
 
 ![result](https://yloopdaed-public.oss-cn-shanghai.aliyuncs.com/logaspect.jpg)
+```
+[main] INFO com.yy.annotation.LogAspect - START=======com.yy.annotation.TestAnnotation::hah777============
+[main] INFO com.yy.annotation.LogAspect - DESC: asdfzxxzxzzxz
+[main] INFO com.yy.annotation.LogAspect - ARGS: arg1=(string: aasdaf) arg2=(integer: 12) 
+[main] INFO com.yy.annotation.LogAspect - ================================================================
+
+[main] INFO com.yy.annotation.LogAspect - com.yy.annotation.TestAnnotation::resultfunc:1
+[main] INFO com.yy.annotation.LogAspect - com.yy.annotation.TestAnnotation::hah777:3
+```
 
 此工具会记录使用的切面类型、执行类和方法、传入参数、执行结果、运行耗时等。
 
