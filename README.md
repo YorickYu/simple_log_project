@@ -48,10 +48,14 @@ public void aroundTest(String s) {
 
 ![result](https://yloopdaed-public.oss-cn-shanghai.aliyuncs.com/logaspect.jpg)
 
-日记会记录使用的切面类型、执行的类和方法、传入参数、执行结果、持续时间等。
+此工具会记录使用的切面类型、执行类和方法、传入参数、执行结果、运行耗时等。
+
+次工具会记录被标记的接口的调用次数，可以通过 `LogAspect.stat()` 输出。
 
 
 
 ### 最后
 
 你可以在 [JPP](https://github.com/YorickYu/JPP/tree/main/src/main/java/com/yy/annotation) 或者当前这个项目中下载并使用这个小工具
+
+
