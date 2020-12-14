@@ -23,7 +23,7 @@ import java.util.Set;
 public class LogAspect {
 
     private static final Logger logger = LoggerFactory.getLogger(LogAspect.class);
-    private static final Set<Counter<HashMap<String, Integer>>> SET = new HashSet<>();
+    private static final Set<Counter<HashMap<String, Integer>>> SET = Collections.synchronizedSet(new HashSet<>());
     private static final ThreadLocal<Counter<HashMap<String, Integer>>> TL = ThreadLocal.withInitial(() -> {
         Counter<HashMap<String, Integer>> counter = new Counter();
         HashMap<String, Integer> hashMap = new HashMap<>();
